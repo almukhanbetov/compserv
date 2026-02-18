@@ -1,0 +1,20 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\Lesson;
+
+class LessonController extends Controller
+{
+    public function index()
+    {
+        $lessons = Lesson::all();
+        return view('lessons.index', compact('lessons'));
+    }
+
+    public function show($id)
+    {
+        $lesson = Lesson::findOrFail($id);
+        return view('lessons.show', compact('lesson'));
+    }
+}
