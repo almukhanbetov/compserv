@@ -84,6 +84,30 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="services-item">
+                        <a href="service-details.html">
+                            <img src="assets/images/services/services-img7.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <i class="flaticon-web-development"></i>
+                            <!-- <span><a href="service-details.html">Analysis</a></span> -->
+                            <h3><a href="service-details.html">REACT JS</a></h3>
+                        </div>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6">
+                    <div class="services-item">
+                        <a href="service-details.html">
+                            <img src="assets/images/services/services-img8.jpg" alt="Images">
+                        </a>
+                        <div class="content">
+                            <i class="flaticon-web-development"></i>
+                            <!-- <span><a href="service-details.html">Analysis</a></span> -->
+                            <h3><a href="service-details.html">1C</a></h3>
+                        </div>
+                    </div>
+                </div>
 
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="pagination-area">
