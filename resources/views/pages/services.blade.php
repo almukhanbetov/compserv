@@ -10,12 +10,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item">
                         <a href="service-details.html">
-                            <img src="assets/images/services/services-img1.jpg" alt="Images">
+                            <img src="assets/images/services/services-img9.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <i class="flaticon-web-development"></i>
                             <!-- <span><a href="service-details.html">GO</a></span> -->
-                            <h3><a href="service-details.html">GO</a></h3>
+                            <h3><a href="service-details.html">Разработка сайтов</a></h3>
                         </div>
                     </div>
                 </div>
@@ -23,38 +23,27 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item">
                         <a href="service-details.html">
-                            <img src="assets/images/services/services-img2.jpg" alt="Images">
+                            <img src="assets/images/services/services-img10.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <i class="flaticon-web-development"></i>
                             <!-- <span><a href="service-details.html">Laravel</a></span> -->
-                            <h3><a href="service-details.html">Laravel</a></h3>
+                            <h3><a href="service-details.html">Разработка web приложений</a></h3>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-4 col-md-6">
-                    <div class="services-item">
-                        <a href="service-details.html">
-                            <img src="assets/images/services/services-img3.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <i class="flaticon-web-development"></i>
-                            <!-- <span><a href="service-details.html">Frontend</a></span> -->
-                            <h3><a href="service-details.html">Frontend</a></h3>
-                        </div>
-                    </div>
-                </div>
+                
 
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item">
                         <a href="service-details.html">
-                            <img src="assets/images/services/services-img4.jpg" alt="Images">
+                            <img src="assets/images/services/services-img11.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <i class="flaticon-web-development"></i>
                             <!-- <span><a href="service-details.html">PHP</a></span> -->
-                            <h3><a href="service-details.html">PHP</a></h3>
+                            <h3><a href="service-details.html">Услуги DEVOPS</a></h3>
                         </div>
                     </div>
                 </div>
@@ -62,12 +51,12 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item">
                         <a href="service-details.html">
-                            <img src="assets/images/services/services-img5.jpg" alt="Images">
+                            <img src="assets/images/services/services-img12.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <i class="flaticon-structure"></i>
                             <!-- <span><a href="service-details.html">Planing</a></span> -->
-                            <h3><a href="service-details.html">MYSQL MARIADB POSTGRESQL</a></h3>
+                            <h3><a href="service-details.html">Системное администрирование</a></h3>
                         </div>
                     </div>
                 </div>
@@ -75,39 +64,17 @@
                 <div class="col-lg-4 col-md-6">
                     <div class="services-item">
                         <a href="service-details.html">
-                            <img src="assets/images/services/services-img6.jpg" alt="Images">
+                            <img src="assets/images/services/services-img13.jpg" alt="Images">
                         </a>
                         <div class="content">
                             <i class="flaticon-web-development"></i>
                             <!-- <span><a href="service-details.html">Analysis</a></span> -->
-                            <h3><a href="service-details.html">PYTHON</a></h3>
+                            <h3><a href="service-details.html">1С услуги и разработка</a></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="services-item">
-                        <a href="service-details.html">
-                            <img src="assets/images/services/services-img7.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <i class="flaticon-web-development"></i>
-                            <!-- <span><a href="service-details.html">Analysis</a></span> -->
-                            <h3><a href="service-details.html">REACT JS</a></h3>
-                        </div>
-                    </div>
-                </div>
-                 <div class="col-lg-4 col-md-6">
-                    <div class="services-item">
-                        <a href="service-details.html">
-                            <img src="assets/images/services/services-img8.jpg" alt="Images">
-                        </a>
-                        <div class="content">
-                            <i class="flaticon-web-development"></i>
-                            <!-- <span><a href="service-details.html">Analysis</a></span> -->
-                            <h3><a href="service-details.html">1C</a></h3>
-                        </div>
-                    </div>
-                </div>
+                
+                 
 
                 <div class="col-lg-12 col-md-12 text-center">
                     <div class="pagination-area">
