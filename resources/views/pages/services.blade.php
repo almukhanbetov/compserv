@@ -13,9 +13,9 @@
                             <img src="assets/images/services/services-img1.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <i class="flaticon-consultant"></i>
-                            <span><a href="service-details.html">IT Solution</a></span>
-                            <h3><a href="service-details.html">IT Consulting</a></h3>
+                            <i class="flaticon-web-development"></i>
+                            <!-- <span><a href="service-details.html">GO</a></span> -->
+                            <h3><a href="service-details.html">GO</a></h3>
                         </div>
                     </div>
                 </div>
@@ -26,9 +26,9 @@
                             <img src="assets/images/services/services-img2.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <i class="flaticon-consulting"></i>
-                            <span><a href="service-details.html">Cloud Services</a></span>
-                            <h3><a href="service-details.html">Cloud Computing</a></h3>
+                            <i class="flaticon-web-development"></i>
+                            <!-- <span><a href="service-details.html">Laravel</a></span> -->
+                            <h3><a href="service-details.html">Laravel</a></h3>
                         </div>
                     </div>
                 </div>
@@ -40,8 +40,8 @@
                         </a>
                         <div class="content">
                             <i class="flaticon-web-development"></i>
-                            <span><a href="service-details.html">Web Services</a></span>
-                            <h3><a href="service-details.html">Web Development</a></h3>
+                            <!-- <span><a href="service-details.html">Frontend</a></span> -->
+                            <h3><a href="service-details.html">Frontend</a></h3>
                         </div>
                     </div>
                 </div>
@@ -52,9 +52,9 @@
                             <img src="assets/images/services/services-img4.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <i class="flaticon-stats"></i>
-                            <span><a href="service-details.html">Business</a></span>
-                            <h3><a href="service-details.html">Business Reform</a></h3>
+                            <i class="flaticon-web-development"></i>
+                            <!-- <span><a href="service-details.html">PHP</a></span> -->
+                            <h3><a href="service-details.html">PHP</a></h3>
                         </div>
                     </div>
                 </div>
@@ -66,8 +66,8 @@
                         </a>
                         <div class="content">
                             <i class="flaticon-structure"></i>
-                            <span><a href="service-details.html">Planing</a></span>
-                            <h3><a href="service-details.html">Infrastructure</a></h3>
+                            <!-- <span><a href="service-details.html">Planing</a></span> -->
+                            <h3><a href="service-details.html">MYSQL MARIADB POSTGRESQL</a></h3>
                         </div>
                     </div>
                 </div>
@@ -78,9 +78,9 @@
                             <img src="assets/images/services/services-img6.jpg" alt="Images">
                         </a>
                         <div class="content">
-                            <i class="flaticon-data-analytics"></i>
-                            <span><a href="service-details.html">Analysis</a></span>
-                            <h3><a href="service-details.html">Data Analysis</a></h3>
+                            <i class="flaticon-web-development"></i>
+                            <!-- <span><a href="service-details.html">Analysis</a></span> -->
+                            <h3><a href="service-details.html">PYTHON</a></h3>
                         </div>
                     </div>
                 </div>
