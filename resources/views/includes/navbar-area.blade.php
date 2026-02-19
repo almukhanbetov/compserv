@@ -42,7 +42,7 @@
                                   Обучение
                               </a>
                           </li>
-                           <li class="nav-item">
+                          <li class="nav-item">
                               <a href="{{ route('pages.contacts') }}"
                                   class="nav-link {{ request()->routeIs('pages.contacts') ? 'active' : '' }}">
                                   Контакты
@@ -67,9 +67,33 @@
                           </div>
                           <div class="nav-side-item">
                               <div class="get-btn">
-                                  <a href="{{ route('login') }}" class="default-btn btn-bg-two border-radius-50">Войти
-                                      <i class='bx bx-chevron-right'></i></a>
+
+                                  @guest
+                                      <a href="{{ route('login') }}" class="default-btn btn-bg-two border-radius-50">
+                                          Войти
+                                          <i class="bx bx-chevron-right"></i>
+                                      </a>
+                                  @endguest
+
+                                  @auth
+                                      <a href="{{ route('dashboard') }}" class="default-btn btn-bg-two border-radius-50">
+                                          Кабинет
+                                      </a>
+
+                                      <form id="logout-form" action="{{ route('logout') }}" method="POST"
+                                          style="display:none;">
+                                          @csrf
+                                      </form>
+
+                                      <a href="#"
+                                          onclick="event.preventDefault(); document.getElementById('logout-form').submit();"
+                                          class="default-btn btn-bg-two border-radius-50">
+                                          Выйти
+                                      </a>
+                                  @endauth
+
                               </div>
+
                           </div>
                       </div>
                   </div>

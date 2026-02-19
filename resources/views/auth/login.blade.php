@@ -8,28 +8,26 @@
                         <img src="assets/images/user-img.jpg" alt="Images">
                     </div>
                 </div>
-
                 <div class="col-lg-6">
                     <div class="user-form">
                         <div class="contact-form">
-                            <h2>Log In</h2>
-                            <form>
+                            <h2>Войти</h2>
+                            <form method="POST" action="{{ route('login') }}">
+                                @csrf
                                 <div class="row">
                                     <div class="col-lg-12 ">
                                         <div class="form-group">
-                                            <input type="text" class="form-control" required
-                                                data-error="Please enter your Username or Email"
-                                                placeholder="Username or Email">
+                                            <input type="text" class="form-control" name="email"
+                                                value="{{ old('email') }}" required
+                                                data-error="Please enter your Username or Email" placeholder="Email">
                                         </div>
                                     </div>
-
                                     <div class="col-12">
                                         <div class="form-group">
                                             <input class="form-control" type="password" name="password"
-                                                placeholder="Password">
+                                                placeholder="Пароль">
                                         </div>
                                     </div>
-
                                     <div class="col-lg-12 form-condition">
                                         <div class="agree-label">
                                             <input type="checkbox" id="chb1">
@@ -44,10 +42,8 @@
                                             Войти сейчас
                                         </button>
                                     </div>
-
                                     <div class="col-12">
                                         <p class="account-desc">
-
                                             <a href="{{ route('register') }}">Регистрация</a>
                                         </p>
                                     </div>

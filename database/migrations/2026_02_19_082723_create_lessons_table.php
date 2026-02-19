@@ -13,9 +13,12 @@ return new class extends Migration
     {
         Schema::create('lessons', function (Blueprint $table) {
             $table->id();
+            $table->foreignId('education_id')->constrained('education')->cascadeOnDelete();
             $table->string('title');
-            $table->text('description');
-            $table->longText('code');
+            $table->string('slug')->unique();
+            $table->longText('content')->nullable();
+            $table->integer('position')->default(0);
+            $table->boolean('is_active')->default(true);
             $table->timestamps();
         });
     }
