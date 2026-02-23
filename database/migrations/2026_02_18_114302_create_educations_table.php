@@ -11,24 +11,24 @@ return new class extends Migration
      */
     public function up(): void
     {
-        Schema::create('lessons', function (Blueprint $table) {
+        Schema::create('educations', function (Blueprint $table) {
             $table->id();
-            $table->unsignedBigInteger('education_id');
-            $table->foreign('education_id')->references('id')->on('educations')->onDelete('cascade');
             $table->string('title');
-            $table->string('slug')->unique();
-            $table->longText('content')->nullable();
+            $table->string('slug')->nullable();
+            $table->text('short_description')->nullable();
+            $table->text('description')->nullable();
+            $table->integer('duration_days')->nullable();
+            $table->decimal('price', 10, 2)->nullable();
+            $table->string('level')->nullable();
+            $table->foreignId('category_id')->nullable()->constrained()->nullOnDelete();
             $table->integer('position')->default(0);
             $table->boolean('is_active')->default(true);
             $table->timestamps();
         });
     }
 
-    /**
-     * Reverse the migrations.
-     */
     public function down(): void
     {
-        Schema::dropIfExists('lessons');
+        Schema::dropIfExists('educations');
     }
 };

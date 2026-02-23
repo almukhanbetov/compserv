@@ -1,15 +1,13 @@
 <!DOCTYPE html>
 <html lang="ru">
-
 <head>
     <meta charset="UTF-8">
     <title>DevOps Admin</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <!-- Styles -->
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="icon" type="image/png" href="web/img/favicon.png">
-    <link rel="stylesheet" href="web/css/main.css">
+    <link rel="icon" type="image/png" href="{{ asset('web/img/favicon.png') }}">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
+    <link rel="stylesheet" href="{{ asset('web/css/main.css') }}">
 </head>
 
 <body class="bg-gray-800">
@@ -35,7 +33,7 @@
     </div>
 
     <!-- Scripts -->
-    <script src="web/js/main.js"></script>
+    <script src="{{ asset('web/js/main.js') }}"></script>
     @stack('scripts')
 </body>
 
