@@ -12,25 +12,28 @@
              flex items-center justify-center
              sticky top-0 z-10
              bg-gray-900 shadow-md">
-          <img src="web/img/logo/logo.png" alt="DevOps Admin" class="h-20 object-contain">
+          <img src="{{ asset('web/img/logo/logo.png') }}" alt="DevOps Admin" class="h-20 object-contain">
       </div>
       <!-- MENU -->
       <nav class="p-4 space-y-3 flex-1">
           @php
               $categories = \App\Models\Category::whereNull('parent_id')->with('children')->orderBy('position')->get();
           @endphp
-          <a href="{{ route('admin.users.index') }}" class="block px-4 py-2 rounded hover:bg-gray-800">
-              Users
+          <a href="{{ route('admin.users.index') }}"
+              class="block px-4 py-2 rounded
+                {{ request()->routeIs('admin.users.*') ? 'bg-gray-800 text-white' : 'text-gray-400 hover:bg-gray-800 hover:text-white' }}">
+              Пользователи
           </a>
-          <a href="{{ route('admin.categories.index') }}">
-              Categories
+          <a href="{{ route('admin.categories.index') }}"
+              class="block px-4 py-2 rounded
+                {{ request()->routeIs('admin.categories.*') ? 'bg-gray-800 text-white' : 'text-gray-400 hover:bg-gray-800 hover:text-white' }}">
+              Категории
           </a>
           @foreach ($categories as $category)
               <div class="mb-2">
                   <a href="#" class="block px-4 py-2 bg-gray-800 rounded">
                       {{ $category->name }}
                   </a>
-
                   @foreach ($category->children as $child)
                       <a href="#" class="block px-8 py-2 text-sm text-gray-400 hover:text-white">
                           {{ $child->name }}
@@ -43,14 +46,12 @@
                   <div class="px-4 py-2 text-sm font-semibold text-gray-400 uppercase">
                       {{ $category->name }}
                   </div>
-
                   {{-- Дочерние категории --}}
                   @foreach ($category->children as $child)
                       <a href="#" class="block px-6 py-2 text-sm hover:bg-gray-800 rounded">
                           {{ $child->name }}
                       </a>
                   @endforeach
-
                   {{-- Services --}}
                   @if ($category->type === 'service')
                       @foreach ($category->services as $service)
@@ -60,7 +61,6 @@
                           </a>
                       @endforeach
                   @endif
-
                   {{-- Educations --}}
                   @if ($category->type === 'education')
                       @foreach ($category->educations as $education)
@@ -70,10 +70,8 @@
                           </a>
                       @endforeach
                   @endif
-
               </div>
           @endforeach
-
       </nav>
 
       <!-- CTA -->

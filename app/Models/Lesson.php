@@ -33,7 +33,7 @@ class Lesson extends Model
     }
 
     // Связь с курсом
-    public function education()
+    public function educations()
     {
         return $this->belongsTo(Education::class);
     }
