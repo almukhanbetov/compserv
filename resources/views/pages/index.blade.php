@@ -178,7 +178,7 @@
 
                 <div class="col-lg-4 col-md-4">
                     <div class="build-btn-area">
-                        <a href="contact.html" class="default-btn btn-bg-two border-radius-50">Контакты <i
+                        <a href="contact.html" class="default-btn btn-bg-two border-radius-50">Contact Us <i
                                 class='bx bx-chevron-right'></i></a>
                     </div>
                 </div>
