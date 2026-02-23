@@ -6,13 +6,13 @@
                         <div class="footer-widget">
                             <div class="footer-logo">
                                 <a href="index.html">
-                                    <img src="assets/images/logos/logo-1.png" alt="Images">
+                                    <img src="assets/images/logos/logo-2.png" alt="Images">
                                 </a>
                             </div>
-                            <p>
+                            <!-- <p>
                                 Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum
                                 auct.Aenean, lorem quis bibendum auct. Aenean sollicitudin lorem.
-                            </p>
+                            </p> -->
                             <div class="footer-call-content">
                                 <h3>Support</h3>
                                 <span><a href="tel:+1002-123-4567">+7 707-780-1011</a></span>
@@ -62,41 +62,41 @@
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget pl-5">
-                            <h3>Our Blog</h3>
+                            <h3>Наши проекты</h3>
                             <ul class="footer-blog">
                                 <li>
                                     <a href="blog-details.html">
-                                        <img src="{{ asset('assets/images/blog/blog-img-footer.jpg') }}"
+                                        <img src="{{ asset('assets/images/blog/blog-img-footer.png') }}"
                                             alt="Images">
                                     </a>
                                     <div class="content">
-                                        <h3><a href="blog-details.html">Product Idea Solution For New Generation</a>
+                                        <h3><a href="blog-details.html">Внедрение DevOps инфраструктуры</a>
                                         </h3>
-                                        <span>04 Dec 2024</span>
+                                        <span>Автоматизация CI/CD и развертывание Docker контейнеров</span>
                                     </div>
                                 </li>
 
                                 <li>
                                     <a href="blog-details.html">
-                                        <img src="{{ asset('assets/images/blog/blog-img-footer2.jpg') }}"
+                                        <img src="{{ asset('assets/images/blog/blog-img-footer2.png') }}"
                                             alt="Images">
                                     </a>
                                     <div class="content">
-                                        <h3><a href="blog-details.html">New Device Invention for Digital Platform</a>
+                                        <h3><a href="blog-details.html">Разработка корпоративного портала</a>
                                         </h3>
-                                        <span>07 Dec 2024</span>
+                                        <span>Создание веб-приложения с API и CRM-интеграцией</span>
                                     </div>
                                 </li>
 
                                 <li>
                                     <a href="blog-details.html">
-                                        <img src="{{ asset('assets/images/blog/blog-img-footer3.jpg') }}"
+                                        <img src="{{ asset('assets/images/blog/blog-img-footer3.png') }}"
                                             alt="Images">
                                     </a>
                                     <div class="content">
-                                        <h3><a href="blog-details.html">Business Strategy Make His Goal Acheive</a>
+                                        <h3><a href="blog-details.html">Разработка мобильных приложений</a>
                                         </h3>
-                                        <span>10 Dec 2024</span>
+                                        <span>Android, iOS, интеграция с API</span>
                                     </div>
                                 </li>
                             </ul>
@@ -105,15 +105,15 @@
 
                     <div class="col-lg-3 col-sm-6">
                         <div class="footer-widget">
-                            <h3>Newsletter</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus molestie
-                                molestie. Phasellus ac rutrum massa, et volutpat nisl. Fusce ultrices suscipit nisl.</p>
+                            <h3>Свяжитесь с нами</h3>
+                            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum finibus molestie
+                                molestie. Phasellus ac rutrum massa, et volutpat nisl. Fusce ultrices suscipit nisl.</p> -->
                             <div class="newsletter-area">
                                 <form class="newsletter-form" data-toggle="validator" method="POST">
                                     <input type="email" class="form-control" placeholder="Enter Your Email"
                                         name="EMAIL" required autocomplete="off">
                                     <button class="subscribe-btn" type="submit">
-                                        <i class='bx bx-paper-plane'></i>
+                                        <i class='bx bx-paper-plane text-white'></i>
                                     </button>
                                     <div id="validator-newsletter" class="form-result"></div>
                                 </form>

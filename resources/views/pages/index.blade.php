@@ -117,15 +117,15 @@
     <section class="work-process-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Our Working Process</span>
-                <h2>How Our Services Will Help You to Grow Your Business</h2>
+                <span class="sp-color2">Что мы предлагаем</span>
+                <h2>Современные IT-услуги для автоматизации и развития компании</h2>
             </div>
             <div class="row pt-45">
                 <div class="col-lg-3 col-sm-6">
                     <div class="work-process-card">
                         <i class="flaticon-project"></i>
-                        <h3>Discovery</h3>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
+                        <h3>DevOps услуги</h3>
+                        <p>CI/CD, Docker, Kubernetes, автоматизация развертывания и мониторинг.
                         </p>
                         <div class="number">01</div>
                     </div>
@@ -135,8 +135,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="work-process-card">
                         <i class="flaticon-chip"></i>
-                        <h3>Planning</h3>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
+                        <h3>Разработка веб приложений</h3>
+                        <p>Laravel, API, CRM-системы, корпоративные порталы.
                         </p>
                         <div class="number">02</div>
                     </div>
@@ -145,8 +145,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="work-process-card">
                         <i class="flaticon-effective"></i>
-                        <h3>Execute</h3>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
+                        <h3>Разработка мобильных приложений</h3>
+                        <p>Разрабатываем удобные приложения для клиентов и сотрудников
                         </p>
                         <div class="number">03</div>
                     </div>
@@ -155,8 +155,8 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="work-process-card">
                         <i class="flaticon-bullhorn"></i>
-                        <h3>Deliver</h3>
-                        <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor.
+                        <h3>Системное администрирование</h3>
+                        <p>Настройка серверов, безопасность, резервное копирование.
                         </p>
                         <div class="number">04</div>
                     </div>
@@ -170,15 +170,15 @@
                 <div class="col-lg-8 col-md-8">
                     <div class="build-content">
                         <div class="section-title">
-                            <span>We Carry More Than Just Good Coding Skills</span>
-                            <h2>Let's Build Your Website!</h2>
+                            <span>Почему выбирают Complex Services?</span>
+                            <h2>Автоматизируем бизнес, внедряем DevOps и создаём масштабируемые IT-решения для роста вашей компании.</h2>
                         </div>
                     </div>
                 </div>
 
                 <div class="col-lg-4 col-md-4">
                     <div class="build-btn-area">
-                        <a href="contact.html" class="default-btn btn-bg-two border-radius-50">Contact Us <i
+                        <a href="contact.html" class="default-btn btn-bg-two border-radius-50">Контакты <i
                                 class='bx bx-chevron-right'></i></a>
                     </div>
                 </div>
@@ -186,14 +186,14 @@
 
             <div class="build-play-img pt-45">
                 <img src="assets/images/build-img.jpg" alt="Images">
-                <div class="play-area-content">
+                <!-- <div class="play-area-content">
                     <span>Watch Our Intro Video</span>
                     <h2>Perfect Solution for IT Services!</h2>
                 </div>
                 <div class="play-area">
                     <a href="https://www.youtube.com/watch?v=tUP5S4YdEJo" class="play-on popup-btn"><i
                             class='bx bx-play'></i></a>
-                </div>
+                </div> -->
             </div>
         </div>
     </div>
@@ -438,37 +438,37 @@
                 <div class="brand-item">
                     <img src="{{ asset('assets/images/brand-logo/brand-logo1.png') }}" class="brand-logo-one"
                         alt="Images">
-                    <img src="{{ asset('assets/images/brand-logo/brand-style1.png') }}" class="brand-logo-two"
+                    <img src="{{ asset('assets/images/brand-logo/brand-logo1.png') }}" class="brand-logo-two"
                         alt="Images">
                 </div>
                 <div class="brand-item">
                     <img src="{{ asset('assets/images/brand-logo/brand-logo2.png') }}" class="brand-logo-one"
                         alt="Images">
-                    <img src="{{ asset('assets/images/brand-logo/brand-style2.png') }}" class="brand-logo-two"
+                    <img src="{{ asset('assets/images/brand-logo/brand-logo2.png') }}" class="brand-logo-two"
                         alt="Images">
                 </div>
                 <div class="brand-item">
                     <img src="{{ asset('assets/images/brand-logo/brand-logo3.png') }}" class="brand-logo-one"
                         alt="Images">
-                    <img src="{{ asset('assets/images/brand-logo/brand-style3.png') }}" class="brand-logo-two"
+                    <img src="{{ asset('assets/images/brand-logo/brand-logo3.png') }}" class="brand-logo-two"
                         alt="Images">
                 </div>
                 <div class="brand-item">
                     <img src="{{ asset('assets/images/brand-logo/brand-logo4.png') }}" class="brand-logo-one"
                         alt="Images">
-                    <img src="{{ asset('assets/images/brand-logo/brand-style4.png') }}" class="brand-logo-two"
+                    <img src="{{ asset('assets/images/brand-logo/brand-logo4.png') }}" class="brand-logo-two"
                         alt="Images">
                 </div>
                 <div class="brand-item">
                     <img src="{{ asset('assets/images/brand-logo/brand-logo5.png') }}" class="brand-logo-one"
                         alt="Images">
-                    <img src="{{ asset('assets/images/brand-logo/brand-style5.png') }}" class="brand-logo-two"
+                    <img src="{{ asset('assets/images/brand-logo/brand-logo5.png') }}" class="brand-logo-two"
                         alt="Images">
                 </div>
                 <div class="brand-item">
                     <img src="{{ asset('assets/images/brand-logo/brand-logo3.png') }}" class="brand-logo-one"
                         alt="Images">
-                    <img src="{{ asset('assets/images/brand-logo/brand-style3.png') }}" class="brand-logo-two"
+                    <img src="{{ asset('assets/images/brand-logo/brand-logo3.png') }}" class="brand-logo-two"
                         alt="Images">
                 </div>
             </div>
