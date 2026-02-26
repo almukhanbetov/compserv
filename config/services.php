@@ -13,7 +13,7 @@ return [
     | a conventional file to locate the various service credentials.
     |
     */
-
+    'runner' => ['url' => env('RUNNER_URL','http://127.0.0.1:8081')],
     'postmark' => [
         'key' => env('POSTMARK_API_KEY'),
     ],

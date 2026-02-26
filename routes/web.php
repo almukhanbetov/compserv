@@ -12,8 +12,35 @@ use App\Http\Controllers\RunController;
 use App\Http\Controllers\UserCodeController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\Admin\ServiceController;
+use App\Http\Controllers\LearningController;
+use App\Http\Controllers\RunnerProxyController;
+use App\Http\Controllers\Admin\LanguageController;
+use App\Http\Controllers\Admin\ProgramController;
+use App\Http\Controllers\Admin\TaskController;
+use App\Http\Controllers\RunnerController;
+
 Route::get('/post', function () {
     return view('post');
+});
+
+// pages
+Route::get('/learning', [LearningController::class,'index']);
+Route::get('/learning/{slug}', [LearningController::class,'language']);
+Route::get('/learning/{slug}/runner', [LearningController::class,'runner']);
+
+// json for UI
+Route::get('/api/program/{id}', [LearningController::class,'programJson']);
+Route::get('/api/task/{id}', [LearningController::class,'taskJson']);
+
+// proxy to runner (чтобы фронт не знал порт runner)
+Route::post('/api/run', [RunnerProxyController::class,'run']);
+Route::post('/api/check', [RunnerProxyController::class,'check']);
+
+// admin (минимум)
+Route::prefix('admin')->name('admin.')->group(function(){
+  Route::resource('languages', LanguageController::class);
+  Route::resource('programs', ProgramController::class);
+  Route::resource('tasks', TaskController::class);
 });
 Route::get('/', [PageController::class, 'index'])->name("pages.home");
 Route::get('/about', [PageController::class, 'about'])->name("pages.about");

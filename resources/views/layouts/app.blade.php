@@ -51,7 +51,6 @@
             </div>
         </div>
     </div>
-   
     @yield('content')
     @include('includes.footer')
     <div class="switch-box">
@@ -74,77 +73,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-go.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-php.min.js"></script>
-    <script src="https://unpkg.com/monaco-editor@latest/min/vs/loader.js"></script>
-    <script src="https://unpkg.com/monaco-editor@0.45.0/min/vs/loader.js"></script>
-
-    <script>
-        require.config({
-            paths: {
-                vs: 'https://unpkg.com/monaco-editor@0.45.0/min/vs'
-            }
-        });
-
-        require(['vs/editor/editor.main'], function() {
-
-                    window.editor = monaco.editor.create(
-                            document.getElementById('editor'), {
-                                value: "<?php\n\n// Laravel IDE",
-                    language: "php",
-                    theme: "vs-dark",
-                    automaticLayout: true
-                }
-            );
-        });
-    </script>
-    <script>
-        function loadFile() {
-
-            fetch('/editor/load', {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                    },
-                    body: JSON.stringify({
-                        filename: filename.value
-                    })
-                })
-                .then(r => r.json())
-                .then(data => {
-                    editor.setValue(data.content);
-                });
-        }
-
-        function saveFile() {
-
-            fetch('/editor/save', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'X-CSRF-TOKEN': '{{ csrf_token() }}'
-                },
-                body: JSON.stringify({
-                    filename: filename.value,
-                    content: editor.getValue()
-                })
-            });
-        }
-
-        /* RUN */
-
-        function runCode() {
-
-            saveFile(); // сначала сохранить
-
-            setTimeout(() => {
-
-                document.getElementById('preview').src =
-                    '/editor/run/' + filename.value + '?t=' + Date.now();
-
-            }, 300);
-        }
-    </script>
-
+    @yield('scripts')
 </body>
 
 </html>
