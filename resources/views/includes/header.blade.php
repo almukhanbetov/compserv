@@ -14,17 +14,17 @@
                         <ul>
                             <li>
                                 <a href="https://www.facebook.com/" target="_blank">
-                                    <i class='bx bxl-facebook'></i>
+                                    <i class='bx bxl-telegram'></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://twitter.com/?lang=en" target="_blank">
-                                    <i class='bx bxl-twitter'></i>
+                                    <i class='bx bxl-whatsapp'></i>
                                 </a>
                             </li>
                             <li>
                                 <a href="https://www.linkedin.com/" target="_blank">
-                                    <i class='bx bxl-linkedin-square'></i>
+                                    <i class='bx bxl-youtube'></i>
                                 </a>
                             </li>
                             <li>

@@ -55,6 +55,12 @@
                                         Сопровождение
                                     </a>
                                 </li>
+                                <li>
+                                    <a href="service-details.html" target="_blank">
+                                        <i class='bx bx-chevron-right'></i>
+                                        Алгоритмизация и структуры данных
+                                    </a>
+                                </li>
 
                             </ul>
                         </div>

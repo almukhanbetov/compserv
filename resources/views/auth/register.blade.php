@@ -18,13 +18,13 @@
                                     <div class="col-lg-12 ">
                                         <div class="form-group">
                                             <input type="text" class="form-control" required name="name"
-                                                data-error="Пожалуйста введите Ваше Имя" placeholder="Введите ваше">
+                                                data-error="Пожалуйста введите Ваше Имя" placeholder="Введите ваше имя">
                                         </div>
                                     </div>
                                     <div class="col-lg-12 ">
                                         <div class="form-group">
                                             <input type="email" class="form-control" required name="email"
-                                                data-error="Введите Ваше имя и email" placeholder="Enter Your Email">
+                                                data-error="Введите Ваше имя и email" placeholder="Email">
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -41,7 +41,7 @@
                                     </div>
                                     <div class="col-lg-12 ">
                                         <button type="submit" class="default-btn btn-bg-two">
-                                            Register Now
+                                            Создать аккаунт
                                         </button>
                                     </div>
                                     <div class="col-12">

@@ -7,22 +7,19 @@
                 <div class="col-lg-6">
                     <div class="about-content mr-20">
                         <div class="section-title">
-                            <span class="sp-color2">15 лет опыта</span>
+                            <span class="sp-color2">10 лет опыта</span>
                             <h2>Надёжный партнёр в IT-обучении и технологиях</h2>
                             <p>
-                                Мы помогаем освоить востребованные IT-профессии и внедрять современные технологические
-                                решения. Обучение построено на практике, реальных кейсах и актуальных инструментах,
-                                которые используются в компаниях сегодня.
+                                Освой фундамент программирования — научись строить эффективные алгоритмы, анализировать сложность и выбирать оптимальные структуры данных для создания быстрых и масштабируемых решений.
                             </p>
-                            <p>Наша цель — дать не просто знания, а уверенные навыки для работы и развития в сфере IT:
-                                от администрирования и DevOps до программирования.</p>
+                            <p>Обучаем автоматизации процессов разработки и развертывания. Практика CI/CD, контейнеризация, работа с облаками и построение надежной инфраструктуры.</p>
                         </div>
                         <div class="row">
                             <div class="col-lg-6 col-6">
                                 <div class="about-content-card">
                                     <i class="flaticon-practice"></i>
                                     <h3>Опыт и экспертиза</h3>
-                                    <p>Мы обучаем на основе реальных задач и сценариев из рабочей практики. Наши
+                                    <p>Обучаем на основе реальных задач и сценариев из рабочей практики. Наши
                                         программы постоянно обновляются под требования рынка.</p>
                                 </div>
                             </div>
@@ -57,8 +54,8 @@
     <section class="services-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color1">Our Services</span>
-                <h2>Мы помогаем компаниям внедрять современные IT решения</h2>
+                <span class="sp-color1">Предлагаем услуги</span>
+                <h2>Помогаем компаниям внедрять современные IT решения</h2>
                 <p class="margin-auto">
                     Наша команда объединяет экспертизу в инфраструктуре, разработке и цифровой трансформации, чтобы
                     создавать надежные и масштабируемые решения для вашего бизнеса
@@ -101,12 +98,22 @@
                 <div class="col-lg-3 col-sm-6">
                     <div class="services-card">
                         <i class="flaticon-stats"></i>
+                        <h3><a href="service-details.html">Алгоритмизация и структуры данных</a></h3>
+                        <p>Разрабатываем и оптимизируем алгоритмы различной сложности. Используем эффективные структуры данных (массивы, списки, деревья, графы, хеш-таблицы).</p>
+                        <a href="service-details.html" class="learn-btn">Learn More <i class='bx bx-chevron-right'></i></a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="services-card">
+                        <i class="flaticon-stats"></i>
                         <h3><a href="service-details.html">Business Reform</a></h3>
                         <p>Автоматизируем бизнес-процессы, внедряем CRM и ERP-системы, повышаем прозрачность управления
                             и эффективность работы компании за счёт цифровых инструментов. </p>
                         <a href="service-details.html" class="learn-btn">Learn More <i class='bx bx-chevron-right'></i></a>
                     </div>
                 </div>
+                
             </div>
         </div>
 
@@ -121,24 +128,14 @@
                 <h2>Современные IT-услуги для автоматизации и развития компании</h2>
             </div>
             <div class="row pt-45">
-                <div class="col-lg-3 col-sm-6">
-                    <div class="work-process-card">
-                        <i class="flaticon-project"></i>
-                        <h3>DevOps услуги</h3>
-                        <p>CI/CD, Docker, Kubernetes, автоматизация развертывания и мониторинг.
-                        </p>
-                        <div class="number">01</div>
-                    </div>
-                </div>
 
-
-                <div class="col-lg-3 col-sm-6">
+               <div class="col-lg-3 col-sm-6">
                     <div class="work-process-card">
                         <i class="flaticon-chip"></i>
                         <h3>Разработка веб приложений</h3>
                         <p>Laravel, API, CRM-системы, корпоративные порталы.
                         </p>
-                        <div class="number">02</div>
+                        <div class="number">01</div>
                     </div>
                 </div>
 
@@ -148,9 +145,33 @@
                         <h3>Разработка мобильных приложений</h3>
                         <p>Разрабатываем удобные приложения для клиентов и сотрудников
                         </p>
+                        <div class="number">02</div>
+                    </div>
+                </div>
+               
+                <div class="col-lg-3 col-sm-6">
+                    <div class="work-process-card">
+                        <i class="flaticon-project"></i>
+                        <h3>Алгоритмы и структуры данных</h3>
+                        <p>Оптимизация вычислений, эффективная обработка данных, проектирование масштабируемых решений и высокопроизводительных систем.
+                        </p>
                         <div class="number">03</div>
                     </div>
                 </div>
+
+                <div class="col-lg-3 col-sm-6">
+                    <div class="work-process-card">
+                        <i class="flaticon-project"></i>
+                        <h3>DevOps услуги</h3>
+                        <p>CI/CD, Docker, Kubernetes, автоматизация развертывания и мониторинг.
+                        </p>
+                        <div class="number">04</div>
+                    </div>
+                </div>
+
+
+                
+                
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="work-process-card">
@@ -158,7 +179,7 @@
                         <h3>Системное администрирование</h3>
                         <p>Настройка серверов, безопасность, резервное копирование.
                         </p>
-                        <div class="number">04</div>
+                        <div class="number">05</div>
                     </div>
                 </div>
             </div>
@@ -178,7 +199,7 @@
 
                 <div class="col-lg-4 col-md-4">
                     <div class="build-btn-area">
-                        <a href="contact.html" class="default-btn btn-bg-two border-radius-50">Contact Us <i
+                        <a href="contact.html" class="default-btn btn-bg-two border-radius-50">Контакты <i
                                 class='bx bx-chevron-right'></i></a>
                     </div>
                 </div>
@@ -201,7 +222,7 @@
     <div class="counter-area pb-70 mt-5">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color2">Numbers Are Talking</span>
+                <span class="sp-color2">Результаты обучение</span>
                 <h2>Наши результаты в обучении и карьерном росте студентов</h2>
                 <p>Мы не просто обучаем — мы готовим востребованных специалистов. </p>
             </div>
@@ -381,7 +402,7 @@
     <section class="technology-area pt-100 pb-70">
         <div class="container">
             <div class="section-title text-center">
-                <span class="sp-color1">Technology Index</span>
+                <span class="sp-color1">Технологии</span>
                 <h2>Обучаем современным IT технологиям</h2>
             </div>
 
